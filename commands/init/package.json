@@ -1,0 +1,43 @@
+{
+  "name": "@yzm-cli2/init",
+  "version": "1.0.2",
+  "description": "> TODO: description",
+  "author": "alines <hanruigang@163.com>",
+  "homepage": "https://github.com/iahjc/yzming-cli-dev#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iahjc/yzming-cli-dev.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@yzming-cli-dev/init.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/iahjc/yzming-cli-dev/issues"
+  },
+  "dependencies": {
+    "@yzm-cli2/command": "file:../../models/command",
+    "@yzm-cli2/log": "file:../../utils/log",
+    "@yzm-cli2/package": "file:../../models/package",
+    "@yzm-cli2/request": "file:../../utils/request",
+    "@yzm-cli2/utils": "file:../../utils/utils",
+    "ejs": "^3.1.8",
+    "fs-extra": "^9.0.1",
+    "glob": "^8.0.3",
+    "inquirer": "^7.3.3",
+    "kebab-case": "^1.0.1",
+    "semver": "^7.3.7",
+    "user-home": "^2.0.0"
+  }
+}

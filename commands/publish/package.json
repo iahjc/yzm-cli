@@ -1,0 +1,32 @@
+{
+  "name": "@yzm-cli2/publish",
+  "version": "1.0.2",
+  "description": "> TODO: description",
+  "author": "alines <hanruigang@163.com>",
+  "homepage": "https://github.com/iahjc/lerna-test/tree/main/core/publish#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iahjc/lerna-test.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/publish.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/iahjc/lerna-test/issues"
+  },
+  "dependencies": {
+    "@yzm-cli2/command": "file:../../models/command",
+    "@yzm-cli2/log": "file:../../utils/log",
+    "@yzm-cli2/git": "file:../../models/git",
+    "fs-extra": "^9.0.1"
+  }
+}

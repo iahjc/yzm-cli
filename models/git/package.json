@@ -1,0 +1,38 @@
+{
+  "name": "@yzm-cli2/git",
+  "version": "1.0.2",
+  "description": "> TODO: description",
+  "author": "alines <hanruigang@163.com>",
+  "homepage": "https://github.com/iahjc/lerna-test/tree/main/core/git#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iahjc/lerna-test.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/git.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/iahjc/lerna-test/issues"
+  },
+  "dependencies": {
+    "@yzm-cli2/log": "file:../../utils/log",
+    "@yzm-cli2/utils": "file:../../utils/utils",
+    "@yzm-cli2/cloudbuild": "file:../../models/cloudbuild",
+    "axios": "^0.27.2",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "semver": "^7.3.5",
+    "simple-git": "^2.39.0",
+    "terminal-link": "^2.1.1",
+    "user-home": "^2.0.0"
+  }
+}

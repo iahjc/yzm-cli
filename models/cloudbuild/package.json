@@ -1,0 +1,31 @@
+{
+  "name": "@yzm-cli2/cloudbuild",
+  "version": "1.0.2",
+  "description": "> TODO: description",
+  "author": "alines <hanruigang@163.com>",
+  "homepage": "https://github.com/iahjc/lerna-test/tree/main/core/cloudbuild#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iahjc/lerna-test.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/cloudbuild.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/iahjc/lerna-test/issues"
+  },
+  "dependencies": {
+    "@yzm-cli2/log": "file:../../utils/log",
+    "lodash": "^4.17.21",
+    "socket.io-client": "^2.0.1"
+  }
+}
